@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- AppBarLayout para la barra de herramientas -->
+
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- Barra de herramientas con botón de logout -->
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
@@ -35,7 +35,6 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <!-- Contenedor de los fragments MasterFragment y DetailFragment -->
     <FrameLayout
         android:id="@+id/container_fragment"
         android:layout_width="match_parent"
