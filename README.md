@@ -5,7 +5,7 @@
 
 Instalacion de la aplicacion 
 
-Ususando la terminal puede clonar el repositorio 
+Usando la terminal puede clonar el repositorio 
 
 
 
