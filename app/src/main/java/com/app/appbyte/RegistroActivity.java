@@ -48,7 +48,6 @@ public class RegistroActivity extends AppCompatActivity {
                 boolean resultado = byteDataBase.insertData(username, password);
                 if (resultado) {
                     Toast.makeText(RegistroActivity.this, "Usuario registrado correctamente.", Toast.LENGTH_SHORT).show();
-                    // Aquí puedes redirigir a la actividad de inicio de sesión o hacer cualquier otra acción necesaria.
                 } else {
                     Toast.makeText(RegistroActivity.this, "Error al registrar usuario.", Toast.LENGTH_SHORT).show();
                 }
