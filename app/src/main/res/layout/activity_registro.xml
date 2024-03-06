@@ -6,7 +6,7 @@
     android:padding="16dp">
 
     <ImageView
-        android:id="@+id/loginLogo"
+        android:id="@+id/Logo"
         android:layout_width="200dp"
         android:layout_height="158dp"
         android:layout_alignParentStart="true"
@@ -22,11 +22,11 @@
         android:id="@+id/Text"
         android:layout_width="89dp"
         android:layout_height="21dp"
-        android:layout_below="@id/loginLogo"
+        android:layout_below="@id/Logo"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="45dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="239dp"
         android:fontFamily="sans-serif-medium"
         android:text="Usuario"
@@ -35,7 +35,7 @@
 
 
     <EditText
-        android:id="@+id/nameEditText"
+        android:id="@+id/nameEditTextSign"
         android:layout_width="287dp"
         android:layout_height="44dp"
         android:layout_below="@id/Text"
@@ -51,10 +51,10 @@
         android:textColor="@color/primary" />
 
     <TextView
-        android:id="@+id/contrasena"
+        android:id="@+id/contrasenaSign"
         android:layout_width="111dp"
         android:layout_height="19dp"
-        android:layout_below="@id/nameEditText"
+        android:layout_below="@id/nameEditTextSign"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="45dp"
@@ -66,10 +66,41 @@
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/contraEdit"
+        android:id="@+id/contraEditSign"
         android:layout_width="287dp"
         android:layout_height="44dp"
-        android:layout_below="@id/contrasena"
+        android:layout_below="@id/contrasenaSign"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_edittext"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColor="@color/primary" />
+
+    <TextView
+        android:id="@+id/contrasenaCheckSign"
+        android:layout_width="111dp"
+        android:layout_height="19dp"
+        android:layout_below="@id/contraEditSign"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Confirmar Contraseña"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/contraEditSignCheck"
+        android:layout_width="287dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/contrasenaCheckSign"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="50dp"
@@ -82,10 +113,10 @@
         android:textColor="@color/primary" />
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/SignButton"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_below="@id/contraEdit"
+        android:layout_below="@id/contraEditSignCheck"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="50dp"
@@ -93,24 +124,23 @@
         android:layout_marginEnd="50dp"
         android:backgroundTint="@color/primary"
         android:fontFamily="sans-serif"
-        android:text="Ingresar"
+        android:text="Registrar"
         android:textStyle="bold"
         app:cornerRadius="18dp" />
 
     <TextView
-        android:id="@+id/RedirectSign"
+        android:id="@+id/RedirectLogin"
         android:layout_width="171dp"
         android:layout_height="41dp"
-        android:layout_below="@+id/loginButton"
+        android:layout_below="@+id/SignButton"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="104dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="140dp"
         android:fontFamily="sans-serif"
         android:padding="5dp"
-        android:text="Crea un Registro"
-        android:textAllCaps="false"
+        android:text="Iniciar aquí"
         android:textColor="@color/primary"
         android:textSize="18sp"
         android:textStyle="bold" />
